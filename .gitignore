@@ -3,3 +3,5 @@ background.txt
 /.vscode
 /__pycache__
 utils.sh
+.cronjob_logger.txt
+.gitignore
