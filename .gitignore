@@ -2,3 +2,4 @@ background.txt
 /venv
 /.vscode
 /__pycache__
+utils.sh
