@@ -8,6 +8,10 @@ with open("scraped_data.json", "r") as file:
 
 
 @app.route("/<crypto>", methods=["GET"])
-def get(crypto):
+def get_crypto(crypto):
     # no handling of edge cases
     return jsonify(scraped_data[crypto])
+
+@app.route('/', methods=["GET"])
+def home():
+	return jsonify(scraped_data)
